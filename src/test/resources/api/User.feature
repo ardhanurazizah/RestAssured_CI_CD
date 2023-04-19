@@ -55,8 +55,8 @@ Feature: User
     Then I received a 404 HTTP response code
     And I don't receive valid data for user details
 
-#  Scenario: INVALID GET ALL - As an admin I can't get all data details
-#    Given I set the GET api endpoint
-#    When I send HTTP GET request
-#    Then I receive valids HTTP response code 404
-#    And I don't receive any data for user details
+  Scenario: INVALID GET ALL - As an admin I can't get all data details
+    Given I set the GET api endpoint
+    When I send HTTP GET request
+    Then I receive valids HTTP response code 404
+    And I don't receive any data for user details
